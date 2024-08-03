@@ -22,10 +22,8 @@
 - [Technologies Used](#technologies-used-package)
 - [Installation](#installation-arrow_down)
 - [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
 - [Personal Information](#personal-information)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
@@ -72,8 +70,8 @@ yarn dev
 
 Open http://localhost:3000 with your browser to see the result.
 
-javascript
-export const personalData = {
+# Personal information :
+const personalData = {
   name: "Nour Montacer",
   profile: '/profile.png',
   logo:'/profile.png',
