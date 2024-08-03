@@ -39,63 +39,12 @@
 # Installation :arrow_down:
 
 ### You will need to download Git and Node to run this project
+#### Make sure you have the latest version of both Git and Node on your computer.
 
 - [Git](https://git-scm.com/downloads)
 - [Node](https://nodejs.org/en/download/)
 
-#### Make sure you have the latest version of both Git and Node on your computer.
-
-
 ---
-
-# [ToDoApp](https://github.com/NourMontacer01/ToDoApp)
-
----
-
-## Developer Portfolio
-
-### Welcome to my ToDoApp project! This application is designed to help users manage their tasks effectively and efficiently. It’s built using modern technologies to ensure a smooth user experience.
-
----
-
-# Demo :movie_camera:
-
-![](./public/image/capture.png)
-
----
-
-## Table of Contents :scroll:
-
-- [Technologies Used](#technologies-used-package)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Personal Information](#personal-information)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-# Technologies Used :package:
-
-- **React:** Version 17
-- **Vite:** A modern build tool that provides fast development and build times.
-
----
-
-# Installation :arrow_down:
-
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
-
-node --version
-git --version
-
-## <br />
 
 # Getting Started :dart:
 
