@@ -1,6 +1,3 @@
-<p align="center" width="100%">
-    <img height="100" src="path/to/your/image.png" alt="ToDoApp Logo">
-</p>
 
 ---
 
@@ -16,7 +13,7 @@
 
 # Demo :movie_camera:
 
-![](./public/image/capture.png)
+![](./public/capture.png)
 
 ---
 
@@ -48,9 +45,6 @@
 
 #### Make sure you have the latest version of both Git and Node on your computer.
 
-<p align="center" width="100%">
-    <img height="100" src="path/to/your/image.png" alt="ToDoApp Logo">
-</p>
 
 ---
 
