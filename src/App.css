@@ -1,0 +1,264 @@
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #535151; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Radius of the scrollbar handle */
+  height: 15px; /* Height of the scrollbar handle */
+}
+
+/* Media query for small phones */
+@media only screen and (max-width: 480px) {
+  /* Adjust styles for small phones */
+  body {
+    font-size: 80%; /* Reduce font size by 20% */
+  }
+
+  .todo-wrapper {
+    width: 60%; /* Reduce width by 40% */
+    margin-top: 10%; /* Adjust margin top */
+    max-height: 50vh; /* Example adjustment */
+  }
+
+  input {
+    width: 60%; /* Reduce width by 40% */
+    height: 2.4vh; /* Reduce height by 40% */
+    padding: 4px; /* Reduce padding by 40% */
+    border-radius: 3rem; /* Reduce border radius by 40% */
+  }
+
+  .todo-input {
+    padding: 9px; /* Reduce padding by 40% */
+    margin: 24px; /* Adjust margin */
+  }
+
+  .todo-input-item {
+    padding: 3px; /* Reduce padding by 40% */
+    margin: 9px; /* Adjust margin */
+  }
+
+  .todo-list-item {
+    padding: 15px; /* Reduce padding by 40% */
+    margin: 0.6rem; /* Adjust margin */
+  }
+
+  .Date {
+    font-size: 0.8rem; /* Reduce font size by 20% */
+  }
+
+  .primaryBtn, .secondaryBtn {
+    padding: 4.8px 18px; /* Reduce padding by 40% */
+    font-size: 9px; /* Reduce font size by 40% */
+  }
+
+  .icon-container {
+    font-size: 15px; /* Reduce font size by 40% */
+  }
+
+  .todo-list-item h3 {
+    font-size: 15px; /* Reduce font size by 40% */
+  }
+
+  .todo-list-item p {
+    font-size: 9px; /* Reduce font size by 40% */
+  }
+
+  .icon, .checkicon {
+    font-size: 15px; /* Reduce icon size by 40% */
+  }
+}
+
+
+/* Media queries for tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust styles for tablets */
+  .todo-wrapper {
+    margin-top: 3%;
+    max-height: 70vh;
+  }
+}
+
+/* Root element */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Body */
+body {
+  background-color: #4AA3A2;
+  overflow: visible;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+}
+
+/* Todo wrapper */
+.todo-wrapper {
+  background-color: #A7E0E0;
+  border-radius: 1rem;
+  border: 5px solid white;
+  width: auto;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 0px 10px 20px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Input */
+input {
+  padding: 7px;
+  border-radius: 5rem;
+  border: 2px solid gray;
+  width: 300px;
+  height: 4vh;
+}
+
+/* Todo input */
+.todo-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid gray;
+  padding: 15px;
+  margin: 40px;
+}
+
+/* Todo input item */
+.todo-input-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 15px;
+}
+
+/* Todo list */
+.todo-list {
+  background-color: #DB6A8F;
+  margin: 10px;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Todo list item */
+.todo-list-item {
+  background-color: #f8cedb;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 1rem;
+  align-items: center;
+  box-shadow: 2px 3px 5px black;
+}
+
+/* Date */
+.Date {
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Primary button */
+.primaryBtn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2rem 4px 2px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.primaryBtn:hover {
+  background-color: #45a049;
+  border: 2px solid black;
+}
+
+/* Secondary button */
+.secondaryBtn {
+  background-color: #DB6A8F;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  width: fit-content;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Active class */
+.active {
+  background-color: #CA3C66;
+}
+
+/* Icon container */
+.icon-container {
+  display: flex;
+  font-size: 26px;
+  justify-content: space-between;
+  width: 100px;
+  padding: 40px;
+  align-items: center;
+}
+
+/* Todo list item heading */
+.todo-list-item h3 {
+  color: rgb(75, 74, 74);
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Todo list item paragraph */
+.todo-list-item p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Icon */
+.icon {
+  font-size: 26px;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* Icon hover */
+.icon:hover {
+  color: #ec0000;
+}
+
+/* Check icon */
+.checkicon {
+  font-size: 26px;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* Check icon hover */
+.checkicon:hover {
